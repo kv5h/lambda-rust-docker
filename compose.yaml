@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      tags:
+        - 'lambda-rust-docker:latest'
+      args:
+        BIN_NAME: lambda-rust-docker
+      #platforms:
+      #  - 'linux/amd64'
