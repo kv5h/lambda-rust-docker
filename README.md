@@ -29,7 +29,7 @@ need.
 docker compose build
 ```
 
-> [!TIPS]
+> [!TIP]
 >
 > If your machine and the Lambda's architecture are different, adding for
 > example `--platform=linux/amd64` will help. You can configure it in
