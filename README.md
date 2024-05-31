@@ -1,12 +1,12 @@
 # lambda-rust-docker
 
-A sample repository for building Docker image for AWS Lambda for Rust lang.
+A sample repository for building a Rust Docker image for AWS Lambda.
 
 ## How-to
 
 ### Write codes
 
-For details, see a sample code: [./src/main.rs](./src/main.rs)
+For details, see a sample code: [`src/main.rs`](./src/main.rs)
 
 ### Test
 
@@ -20,7 +20,7 @@ cargo test
 
 The goal of this repository is to create Docker image for AWS Lambda.
 
-The image definition is based on [./Dockerfile](./Dockerfile), edit it as you
+The image definition is based on [`Dockerfile`](./Dockerfile), edit it as you
 need.
 
 ### Build the image
@@ -33,7 +33,7 @@ docker compose build
 >
 > If your machine and the Lambda's architecture are different, adding for
 > example `--platform=linux/amd64` will help. You can configure it in
-> [./compose.yaml](./compose.yaml). Note that the flag is commented out by
+> [`compose.yaml`](./compose.yaml). Note that the flag is commented out by
 > default.
 
 Now a Docker image is created as `lambda-rust-docker:latest`, follow
