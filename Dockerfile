@@ -21,5 +21,5 @@ FROM public.ecr.aws/lambda/provided:al2023
 
 ARG BIN_NAME
 
-COPY --from=builder /app/target/x86_64-unknown-linux-musl/release/${BIN_NAME} /var/runtime/${BIN_NAME}
-CMD [ ${BIN_NAME} ]
+COPY --from=builder /app/target/x86_64-unknown-linux-musl/release/${BIN_NAME} /var/runtime/bootstrap
+CMD [ "bootstrap" ]

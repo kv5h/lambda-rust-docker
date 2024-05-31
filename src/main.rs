@@ -18,6 +18,8 @@ async fn handler(event: LambdaEvent<serde_json::Value>) -> Result<serde_json::Va
         "key": val
     });
 
+    println!("some message...");
+
     Ok(res)
 }
 
