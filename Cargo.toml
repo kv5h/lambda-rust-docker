@@ -1,6 +1,6 @@
 [package]
 name = "lambda-rust-docker"
-description = "A sample repository for building a Rust Docker image for AWS Lambda."
+description = "A template repository for building a Rust Docker image for AWS Lambda."
 version = "0.1.0"
 edition = "2021"
 authors = ["kv5h"]

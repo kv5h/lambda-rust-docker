@@ -1,6 +1,6 @@
 # lambda-rust-docker
 
-A sample repository for building a Rust Docker image for AWS Lambda.
+A template repository for building a Rust Docker image for AWS Lambda.
 
 ## How-to
 
